@@ -189,7 +189,7 @@ export default function FeatureSection() {
       </section>
 
       {/* Features Section with Hero-like Background */}
-      <section className="relative overflow-hidden py-16 md:py-24">
+      <section className="relative overflow-hidden py-8 md:py-24">
         {/* Background with pattern and gradient */}
         <div className="absolute inset-0 pattern-grid" />
         <div className="absolute inset-0 bg-gradient-to-br from-[#000000] via-[#C0392B] to-[#E74C3C] opacity-50" />
@@ -205,7 +205,7 @@ export default function FeatureSection() {
             Key Features
           </motion.h2>
 
-          <div className="px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="md:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
